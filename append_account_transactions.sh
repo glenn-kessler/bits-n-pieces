@@ -1,5 +1,7 @@
 # append account transactions to existing ones
-# assumption: old.csv encoding is utf8
+# assumption:
+#    old.csv encoding is utf8
+#    new.csv encoding is iso8859
 # create a copy of old.csv (1st line, including 3-byte code for representation of special 'de' characters required by M$ excel)
 # data shaping (could be done in one line)
 # convert date to iso8601 
